@@ -10,7 +10,7 @@
 
 | Model       | RandomOverSampler   | SMOTE           | ClusterCentroids   | SMOTEENN            | BalancedRandomForestClassifier | EasyEnsembleClassifier |
 | ----------- | ------------------- | --------------- | ------------------ | ------------------- | ------------------------------ | ---------------------- |
-| BAS [^1]       | 0.6441163           | 0.6482720       || 0.6482720          | 0.5159904           | 0.7877673                      | 0.9254274              |
+| BAS[^1]       | 0.6441163           | 0.6482720       | 0.6482720          | 0.5159904           | 0.7877673                      | 0.9254274              |
 | Type        | Over Sampling       | Over Sampling   | Under Sampling     | Over/Under Sampling | Ensemble Learners              | Ensemble Learners      |
 
-[^1] BAS == Balanced Accuracy Score
+[^1]: BAS == Balanced Accuracy Score
