@@ -8,9 +8,13 @@
 ## Results
 * This table provides a quick overview of the accuracy results of each of the models.
 
-| Model       | RandomOverSampler   | SMOTE           | ClusterCentroids   | SMOTEENN            | BalancedRandomForestClassifier | EasyEnsembleClassifier |
-| ----------- | ------------------- | --------------- | ------------------ | ------------------- | ------------------------------ | ---------------------- |
-| BAS[^1]       | 0.6441163           | 0.6482720       | 0.6482720          | 0.5159904           | 0.7877673                      | 0.9254274              |
-| Type        | Over Sampling       | Over Sampling   | Under Sampling     | Over/Under Sampling | Ensemble Learners              | Ensemble Learners      |
+| Model       | Balanced Accuracy Score   | Type           | 
+| ----------- | ------------------- | --------------- | 
+| RandomOverSampler   | 0.6441163           |Over Sampling       |
+| SMOTE           | 0.6482720      | Over Sampling   |  
+| ClusterCentroids   | 0.6482720          |Under Sampling     |
+| SMOTEENN            |0.5159904           | Over/Under Sampling |
+| BalancedRandomForestClassifier | 0.7877673                      | Ensemble Learners              |
+| EasyEnsembleClassifier |0.9254274  | Ensemble Learners              |
 
-[^1]: BAS == Balanced Accuracy Score
+
