@@ -12,12 +12,12 @@
 
 | Model                          | Balanced Accuracy Score   | F1 Score   | Imbalanced Accuracy Score   | Type                | 
 | -----------                    | -------------------       | --------   | -------------------         | ---------------     | 
-| RandomOverSampler              | 0.6441747                 | 0.80       | 0.42                        | Over Sampling       |
-| SMOTE                          | 0.6482720                 | 0.78       | 0.42                        | Over Sampling       |  
-| ClusterCentroids               | 0.6482720                 | 0.60       | 0.25                        | Under Sampling      |
-| SMOTEENN                       | 0.5103601                 | 0.70       | 0.38                        | Over/Under Sampling |
-| BalancedRandomForestClassifier | 0.7877673                 | 0.95       | 0.62                        | Ensemble Learners   |
-| EasyEnsembleClassifier         | 0.9254274                 | 0.97       | 0.86                        | Ensemble Learners   |
+| RandomOverSampler              | 0.64                      | 0.80       | 0.42                        | Over Sampling       |
+| SMOTE                          | 0.65                      | 0.78       | 0.42                        | Over Sampling       |  
+| ClusterCentroids               | 0.65                      | 0.60       | 0.25                        | Under Sampling      |
+| SMOTEENN                       | 0.51                      | 0.70       | 0.38                        | Over/Under Sampling |
+| BalancedRandomForestClassifier | 0.79                      | 0.95       | 0.62                        | Ensemble Learners   |
+| EasyEnsembleClassifier         | 0.93                      | 0.97       | 0.86                        | Ensemble Learners   |
 
 * The F1 Score is shown here because it is the harmonic mean of the imbalanced data. It takes into consideration the Precision (TP/[TP+FP]) and Sensitivity (TP/[TP+FN]) and provides a summary statistic for evaluation. 
 
