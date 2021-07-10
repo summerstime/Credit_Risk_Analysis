@@ -81,6 +81,7 @@
 ![Classification Report Easy Ensemble AdaBoost Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/EASYclassReport.png)
 
 ## Summary
-* In summary, the Easy Ensemble AdaBoost Classifier shows much more accuracy in the determination of the credit risk of applicants.
+* In summary, the various models used on the trained and test data showed interesting results as seen in the results summary [table](#results-summary). The classification reports showed precision and sensitivity results with the F1 score being helpful in evaluating the unbalanced data.
+* The recommendation is to use the Easy Ensemble AdaBoost Classifier. It shows the most promise for a more accurate determination of the credit risk of applicants.
 
 
