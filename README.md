@@ -5,7 +5,7 @@
 * There are six different algorithms utilized: RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier.
 * Each of these are explained and a final recommendation is provided. 
 
-## Results
+## Results Summary
 * This table provides a quick overview of the accuracy results of each of the algorithms.
 
 | Model                          | Balanced Accuracy Score   | F1 Score   | Type                | 
@@ -23,7 +23,12 @@
 
 ### RandomOverSampler
 
+* The RandomOverSampler (ROS) utilized the process of correcting the imbalance by adding additional data points to the smaller (minority) class. This is done by randomly duplicating points already in the minority class.
 
+* The Confusion Matrix and Classification Report are show below for your review.
+
+![Confusion Matrix ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/images/ROSconfusionMatrix.png)
+![Classification Report ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/images/ROSclassReport.png)
 
 (((((((((((((((((((  WRITE A DESCRIPTON ABOUT THE ONE THAT HAS THE BEST ACCURACY. FOCUS ON GIVING DEFINITIONS AND SUPPORT WHY THE
 RESULT IS SO MUCH BETTER THAN THE OTHERS.))))))))))))))))))))))))
