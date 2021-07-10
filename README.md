@@ -26,10 +26,10 @@
 ### RandomOverSampler
 
 * The RandomOverSampler (ROS) utilized the process of correcting the imbalance by adding additional data points to the smaller (minority) class. This is done by randomly duplicating points already in the minority class.
-
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix ROS
 ![Confusion Matrix ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/ROSconfusionMatrix.png)
+
 	* Classification Report ROS
 ![Classification Report ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/ROSclassReport.png)
 
@@ -38,6 +38,7 @@
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix SMOTE
 ![Confusion Matrix SMOTE](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEconfusionMatrix.png)
+
 	* Classification Report SMOTE
 ![Classification Report SMOTE](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEclassReport.png)
 
@@ -45,8 +46,8 @@
 * Cluster Centroids is an under sampling method. Instead of adding data to the minority, it randomly reduces the majority data set to match the quantity of data points in the minority group.
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix Cluster Centroids
-
 ![Confusion Matrix Cluster Centroids](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/CCconfusionMatrix.png)
+
 	* Classification Report Cluster Centroids
 ![Classification Report Cluster Centroids](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/CCclassReport.png)
 
@@ -55,15 +56,17 @@
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix SMOTEENN
 ![Confusion Matrix SMOTEENN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENNconfusionMatrix.png)
+
 	* Classification Report SMOTEENN
 ![Classification Report SMOTEENN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENNclassReport.png)
 
 ### Balanced Random Forest Classifier 
-* The Balanced Random Forest Classifier utilizes [decision trees](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052) and balanced bootstrap stamples.
+* The Balanced Random Forest Classifier utilizes [decision trees](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052) and balanced bootstrap samples.
 * The combination of various methods is called an [ensemble](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f).
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix Balanced Random Forest Classifier
 ![Confusion Matrix Balanced Random Forest Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/FORESTconfusionMatrix.png)
+
 	* Classification Report Balanced Random Forest Classifier
 ![Classification Report Balanced Random Forest Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/FORESTclassReport.png)
 
@@ -73,6 +76,7 @@
 * The Confusion Matrix and Classification Report are show below for your review.
 	* Confusion Matrix Easy Ensemble AdaBoost Classifier
 ![Confusion Matrix Easy Ensemble AdaBoost Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/EASYconfusionMatrix.png)
+
 	* Classification Report Easy Ensemble AdaBoost Classifier
 ![Classification Report Easy Ensemble AdaBoost Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/EASYclassReport.png)
 
