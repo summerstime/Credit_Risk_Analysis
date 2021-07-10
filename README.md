@@ -28,41 +28,52 @@
 * The RandomOverSampler (ROS) utilized the process of correcting the imbalance by adding additional data points to the smaller (minority) class. This is done by randomly duplicating points already in the minority class.
 
 * The Confusion Matrix and Classification Report are show below for your review.
-* Confusion Matrix ROS
+	* Confusion Matrix ROS
 ![Confusion Matrix ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/ROSconfusionMatrix.png)
-* Classificaiton Report ROS
+	* Classification Report ROS
 ![Classification Report ROS](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/ROSclassReport.png)
 
 ### SMOTE - Synthetic Minority Oversampling Technique
 * SMOTE is another way to work with unbalanced data. It is similar to ROS because the minority group is increased. The difference between them is that SMOTE interpolates the data added to the minority class.
 * The Confusion Matrix and Classification Report are show below for your review.
-* Confusion Matrix SMOTE
+	* Confusion Matrix SMOTE
 ![Confusion Matrix SMOTE](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEconfusionMatrix.png)
-* Classificaiton Report SMOTE
+	* Classification Report SMOTE
 ![Classification Report SMOTE](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEclassReport.png)
 
 ### Cluster Centroids
 * Cluster Centroids is an under sampling method. Instead of adding data to the minority, it randomly reduces the majority data set to match the quantity of data points in the minority group.
 * The Confusion Matrix and Classification Report are show below for your review.
-* Confusion Matrix Cluster Centroids
+	* Confusion Matrix Cluster Centroids
+
 ![Confusion Matrix Cluster Centroids](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/CCconfusionMatrix.png)
-* Classificaiton Report Cluster Centroids
+	* Classification Report Cluster Centroids
 ![Classification Report Cluster Centroids](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/CCclassReport.png)
 
 ### SMOTEENN - SMOTE and Edited Nearest Neighbors (ENN)
 * SMOTEEN uses over and under sampling methods to analyze the data. SMOTE was described above. ENN removes outliers and helps to reduce the amount of overlapping data.
 * The Confusion Matrix and Classification Report are show below for your review.
-* Confusion Matrix SMOTEEN
-![Confusion Matrix SMOTEEN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENconfusionMatrix.png)
-* Classificaiton Report SMOTEEN
-![Classification Report SMOTEEN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENclassReport.png)
+	* Confusion Matrix SMOTEENN
+![Confusion Matrix SMOTEENN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENNconfusionMatrix.png)
+	* Classification Report SMOTEENN
+![Classification Report SMOTEENN](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/SMOTEENNclassReport.png)
+
+### Balanced Random Forest Classifier 
+* The Balanced Random Forest Classifier utilizes [decision trees](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052) and balanced bootstrap stamples.
+* The combination of various methods is called an [ensemble](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f).
+* The Confusion Matrix and Classification Report are show below for your review.
+	* Confusion Matrix Balanced Random Forest Classifier
+![Confusion Matrix Balanced Random Forest Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/FORESTconfusionMatrix.png)
+	* Classification Report Balanced Random Forest Classifier
+![Classification Report Balanced Random Forest Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/FORESTclassReport.png)
 
 
 ### Easy Ensemble AdaBoost Classifier 
-* The [Easy Ensemble AdaBoost Classifier](http://restanalytics.com/2020-03-29-Machine-Learning-With-Imbalanced-Target-Class-Datasets/) Balanced Random Forest Classifier utilizes [Adaptive Boosting](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/) which helps boost the accuracy of week learners.
-* Confusion Matrix Easy Ensemble AdaBoost Classifier
+* The [Easy Ensemble AdaBoost Classifier](http://restanalytics.com/2020-03-29-Machine-Learning-With-Imbalanced-Target-Class-Datasets/) utilizes [Adaptive Boosting](https://machinelearningmastery.com/boosting-and-adaboost-for-machine-learning/) which helps boost the accuracy of weak decision trees.
+* The Confusion Matrix and Classification Report are show below for your review.
+	* Confusion Matrix Easy Ensemble AdaBoost Classifier
 ![Confusion Matrix Easy Ensemble AdaBoost Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/EASYconfusionMatrix.png)
-* Classificaiton Report Easy Ensemble AdaBoost Classifier
+	* Classification Report Easy Ensemble AdaBoost Classifier
 ![Classification Report Easy Ensemble AdaBoost Classifier](https://github.com/summerstime/Credit_Risk_Analysis/blob/main/Images/EASYclassReport.png)
 
 ## Summary
